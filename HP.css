@@ -1,0 +1,120 @@
+footer div iframe{
+  float: right;
+}
+footer{
+  display: flex;
+  background: rgba(231, 0, 0, 0.33);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url("/css/Assets/HP/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header div img {
+  width: 50px;
+  float: left;
+  border-radius: 20%;
+}
+.logot{
+  display: flex;
+  align-items: center;
+}
+.search img{
+  width: 39px;
+}
+#searchbar{
+  height:30px;
+  width: 200px;
+}
+.menuDiv {
+  background: rgba(0, 0, 0, 0.59);
+  display: inline-block;
+  color: #2e70a9;
+  float: right;
+  border-radius: 10px;
+}
+.menuDiv ul li {
+  list-style: none;
+  display: inline-block;
+}
+.menuDiv ul li img {
+  display: flex;
+  justify-content: center;
+}
+.menuDiv ul li a {
+  color: #8a64bd;
+  text-decoration: none;
+  padding: 25px 20px;
+  display: inline-block;
+  transition: ease-in-out all .3s;
+}
+.menuDiv ul li a:hover {
+  color: #fff;
+  font-size: large;
+  background: #2e70a9;
+}
+.menuDiv ul img:hover {
+  color: #fff;
+  font-size: large;
+  background: #2e70a9;
+  transition: ease-in-out all .3s;
+}
+.Grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+.img-wrapper img{
+  height: 500px;
+}
+.img-wrapper{
+  position: relative;
+  overflow: hidden;
+}
+.img-wrapper > img{
+  display: block;
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  object-position: center;
+}
+.img-wrapper > .content{
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper > img,
+.img-wrapper > .content {
+  transition: 400ms ease-in-out;
+}
+
+.img-wrapper:hover > img.blur {
+  filter: blur(1px);
+}
+.img-wrapper:hover > img.zoom {
+  transform: scale(1.1);
+  height: 550px;
+}
+.img-wrapper > .content.fade {
+  opacity: 0;
+}
+.img-wrapper:hover > .content.fade {
+  opacity: 10;
+}
