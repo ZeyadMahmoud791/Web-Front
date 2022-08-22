@@ -4,7 +4,7 @@
 }
 
 body{
-  background-image: url("background.jpg");
+  background-image: url("/css/Assets/HP/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -27,12 +27,15 @@ header{
 
 .logot img{
   width: 70px;
-  padding-left: 35px;
+  padding-left: 10px;
+  cursor: pointer;
 }
 
 .logot h2{
-  padding: 30px;
+  padding-left: 10px;
+  padding-right: 30px;
   font-size: 28px ;
+  cursor: default;
 }
 
 .menuDiv {
@@ -46,7 +49,7 @@ header{
 .menuDiv ul {
   display: flex;
   align-items: center;
-
+  cursor: default;
 }
 .menuDiv ul li {
   list-style: none;
@@ -55,7 +58,7 @@ header{
 .menuDiv ul li a {
   color: black ;
   text-decoration: none;
-  padding: 25px 20px;
+  padding: 25px 25px;
   display:  flex;
   align-content: center;
   font-size: large;
@@ -66,6 +69,20 @@ header{
   color: #fff;
   font-size: larger;
   background: #2e70a9;
+}
+#topMenu .lt :hover {
+  color: #fff;
+  font-size: larger;
+  background: #2e70a9;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}
+#topMenu .rt :hover {
+  color: #fff;
+  font-size: larger;
+  background: #2e70a9;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 .menuDiv ul img:hover {
@@ -87,7 +104,7 @@ header{
 .profile img {
   width: 52px;
   padding-left: 35px;
-  padding-right: 25px;
+  padding-right: 10px;
 }
 
 .profile form input {
@@ -96,6 +113,8 @@ header{
   width: 200px;
   height: 25px;
   border: 3px solid black;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 input,
@@ -113,16 +132,17 @@ input::-webkit-input-placeholder {
   border-left: none;
   cursor: pointer;
   align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .profile form button img{
-  width: 20px; 
+  width: 20px;
 }
 
 .profile form {
   display: flex;
 }
-
 .Grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -133,16 +153,14 @@ input::-webkit-input-placeholder {
   margin-bottom: 50px;
   margin-top: 70px;
 }
-
 .img-wrapper img{
   height: 500px;
+  border-radius: 10px;
 }
-
 .img-wrapper{
   position: relative;
   overflow: hidden;
 }
-
 .img-wrapper > img{
   display: block;
   width: 100%;
@@ -150,7 +168,6 @@ input::-webkit-input-placeholder {
   object-fit: cover;
   object-position: center;
 }
-
 .img-wrapper > .content{
   position: absolute;
   inset: 0;
@@ -165,25 +182,31 @@ input::-webkit-input-placeholder {
 .img-wrapper > img,
 .img-wrapper > .content {
   transition: 400ms ease-in-out;
+  border-radius: 10px;
 }
 
 .img-wrapper:hover > img.blur {
   filter: blur(1px);
 }
-
 .img-wrapper:hover > img.zoom {
   transform: scale(1.1);
+  transition: 300ms ease-in-out;
   height: 550px;
+  border-radius: 10px; !important;
+  /*me4 fahem 7aga LINES 118-121*/
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
 }
-
 .img-wrapper > .content.fade {
   opacity: 0;
 }
-
 .img-wrapper:hover > .content.fade {
   opacity: 10;
+  border-radius: 10px; !important;
+  cursor: pointer;
 }
-
 footer {
   display: flex;
   /* margin: 2px; */

@@ -7,70 +7,71 @@
 </head>
 <body>
 
-  <header>
+<header>
   <div class="logot">
-    <img src="book.png">
+    <img src="/css/Assets/HP/book.png" onclick="window.location.href = 'HomePage.html';">
     <h2 class="brandn">Book Store</h2>
   </div>
 
   <div class="menuDiv circle">
     <ul id="topMenu">
       <!-- <img src="cart.png" height="65"> -->
-      <li><a>Home</a></li>
+      <li class="lt"><a>Home</a></li>
       <li><a>Categories</a></li>
       <li><a>Genres</a></li>
       <li><a>About us</a></li>
-      <li><a>Contact us</a></li>
+      <li class="rt"><a>Contact us</a></li>
     </ul>
   </div>
 
-<div class="profile">
-  <form>
-    <input class="search" type="text" name="Search" id="" placeholder="Search">
-    <button type="submit"><img src="search.png" alt=""></button>
-  </form>
-  <a href="profile.html"><img class="prof_photo" src="profile.png" alt="profile"></a>
-</div>
+  <div class="profile">
+    <form>
+      <input class="search" type="text" name="Search" id="" placeholder="Search">
+      <button type="submit"><img src="/css/Assets/HP/search.png" alt=""></button>
+    </form>
+    <a href="profile.html"><img class="prof_photo" src="/css/Assets/HP/profile.png" alt="profile"></a>
+  </div>
 
 </header>
 
 <main>
   <div class="Grid">
     <div class="img-wrapper">
-      <img class="blur zoom" src="Horror.jpg">
-      <div class="content fade"> horror</div>
+      <!--<a href="nothing.html"><div class="content fade">Horror</div></a>-->
+      <img class="blur zoom" src="/css/Assets/HP/Horror.jpg">
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Horror</div>
+
     </div>
 
     <div class="img-wrapper">
-      <img class="blur zoom" src="Crime.jpg">
-      <div class="content fade">Crime</div>
+      <img class="blur zoom" src="/css/Assets/HP/Crime.jpg">
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Crime</div>
     </div>
 
   </div>
   <div class="Grid">
     <div class="img-wrapper">
-      <img class="blur zoom" src="comics.jpg">
-      <div class="content fade">Comics</div>
+      <img class="blur zoom" src="/css/Assets/HP/comics.jpg">
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Comics</div>
     </div>
 
     <div class="img-wrapper">
-      <img class="blur zoom" src="Manga.png">
-      <div class="content fade">Manga</div>
+      <img class="blur zoom" src="/css/Assets/HP/Manga.png">
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Manga</div>
     </div>
   </div>
 
   <div class="Grid">
     <div class="img-wrapper">
-      <img class="blur zoom" src="SCP.jpg">
-      <div class="content fade">SCP</div>
+      <img class="blur zoom" src="/css/Assets/HP/SCP.jpg">
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">SCP</div>
     </div>
 
     <div class="img-wrapper">
-      <img class="blur zoom" src="Sci%20Fi.jpg">
-      <div class="content fade">Sci-Fi</div>
+      <img class="blur zoom" src="/css/Assets/HP/Sci%20Fi.jpg">
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Sci-Fi</div>
     </div>
   </div>
-
 </main>
 
 
@@ -78,8 +79,8 @@
   <div class="about">
     <h4>ABOUT BOOK STORE</h4>
     <p>BOOK STORE began as an idea to help support bookstores and their communities at a time when more and more people were
-    buying their books online. We saw an opportunity to create an alternative to Amazon for socially-conscious online
-    shoppers.</p>
+      buying their books online. We saw an opportunity to create an alternative to Amazon for socially-conscious online
+      shoppers.</p>
     <h3 class="cont">Telephone: +20 111 937 7388</h3>
     <h3 class="cont">Email: support@Book.com</h3>
   </div>
