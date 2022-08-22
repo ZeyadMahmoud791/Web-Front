@@ -7,10 +7,15 @@
 </head>
 <body>
 
-<header>
+  <header>
+  <div class="logot">
+    <img src="book.png">
+    <h2 class="brandn">Book Store</h2>
+  </div>
+
   <div class="menuDiv circle">
     <ul id="topMenu">
-      <img src="/css/Assets/berserk/cart.png" height="65">
+      <!-- <img src="cart.png" height="65"> -->
       <li><a>Home</a></li>
       <li><a>Categories</a></li>
       <li><a>Genres</a></li>
@@ -19,52 +24,49 @@
     </ul>
   </div>
 
-  <div class="logot">
-    <img src="/css/Assets/images/icon.png">
-    <h2 class="brandn">Book Store</h2>
-  </div>
-  <br>
-  <div class="topnav">
-    <div class="search">
-      <img src="/css/Assets/berserk/search.png">
-      <input id="searchbar" type="text" placeholder="Search..">
-    </div>
-  </div>
+<div class="profile">
+  <form>
+    <input class="search" type="text" name="Search" id="" placeholder="Search">
+    <button type="submit"><img src="search.png" alt=""></button>
+  </form>
+  <a href="profile.html"><img class="prof_photo" src="profile.png" alt="profile"></a>
+</div>
+
 </header>
 
 <main>
   <div class="Grid">
     <div class="img-wrapper">
-      <img class="blur zoom" src="/css/Assets/HP/Horror.jpg">
+      <img class="blur zoom" src="Horror.jpg">
       <div class="content fade"> horror</div>
     </div>
 
     <div class="img-wrapper">
-      <img class="blur zoom" src="/css/Assets/HP/Crime.jpg">
+      <img class="blur zoom" src="Crime.jpg">
       <div class="content fade">Crime</div>
     </div>
 
   </div>
   <div class="Grid">
     <div class="img-wrapper">
-      <img class="blur zoom" src="/css/Assets/HP/comics.jpg">
+      <img class="blur zoom" src="comics.jpg">
       <div class="content fade">Comics</div>
     </div>
 
     <div class="img-wrapper">
-      <img class="blur zoom" src="/css/Assets/HP/Manga.png">
+      <img class="blur zoom" src="Manga.png">
       <div class="content fade">Manga</div>
     </div>
   </div>
 
   <div class="Grid">
     <div class="img-wrapper">
-      <img class="blur zoom" src="/css/Assets/HP/SCP.jpg">
+      <img class="blur zoom" src="SCP.jpg">
       <div class="content fade">SCP</div>
     </div>
 
     <div class="img-wrapper">
-      <img class="blur zoom" src="/css/Assets/HP/Sci%20Fi.jpg">
+      <img class="blur zoom" src="Sci%20Fi.jpg">
       <div class="content fade">Sci-Fi</div>
     </div>
   </div>
@@ -73,21 +75,31 @@
 
 
 <footer>
-  <br><br><br><br>
-  <div>
-    <p>Berserk (Japanese: ベルセルク, Hepburn: Beruseruku) is a Japanese manga series written and illustrated by Kentaro Miura. Set in a medieval Europe-inspired dark fantasy world, the story centers on the characters of Guts, a lone swordsman, and Griffith, the leader of a mercenary band called the "Band of the Hawk". Miura premiered a prototype of Berserk in 1988. The series began the following year in the Hakusensha's now-defunct magazine Monthly Animal House, which was replaced in 1992 by the semimonthly magazine Young Animal, where Berserk has continued its publication. Following Miura's death in May 2021, the final chapter that he wrote and illustrated was published posthumously in September of the same year; the series resumed in June 2022, under supervision of Miura's fellow manga artist and childhood friend Kouji Mori [ja] and Miura's group of assistants and apprentices from Studio Gaga. </p>
-    <p>copyrights</p>
+  <div class="about">
+    <h4>ABOUT BOOK STORE</h4>
+    <p>BOOK STORE began as an idea to help support bookstores and their communities at a time when more and more people were
+    buying their books online. We saw an opportunity to create an alternative to Amazon for socially-conscious online
+    shoppers.</p>
+    <h3 class="cont">Telephone: +20 111 937 7388</h3>
+    <h3 class="cont">Email: support@Book.com</h3>
+  </div>
+  <div class="book">
+    <h4>BOOK STORE</h4>
     <ul>
-      <li><a href="nothing.html">Home</a></li>
-      <li><a href="nothing.html">Mangas</a></li>
-      <li><a href="nothing.html">Genres</a></li>
-      <li><a href="nothing.html">About us</a></li>
-      <li><a href="nothing.html">Contact us</a></li>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="Products.html">Products</a></li>
+      <li><a href="About us.html">About Us</a></li>
+      <li><a href="Contact us.html">Contact Us</a></li>
     </ul>
   </div>
-  <div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14715.602596624161!2d10.878507965420429!3d63.44444673008682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d16fb3ae6fd6d%3A0x1596b57897c52a6b!2s7517%20Hell%2C%20Norway!5e1!3m2!1sen!2seg!4v1660501682858!5m2!1sen!2seg"
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="help">
+    <h4>HELP AND SUPPORT</h4>
+    <ul>
+      <li><a href="customer service.html">Customer Service</a></li>
+      <li><a href="shipping.html">Shipping</a></li>
+      <li><a href="returns.html">Returns</a></li>
+      <li><a href="terms of service.html">Terms Of Service</a></li>
+    </ul>
   </div>
 </footer>
 
