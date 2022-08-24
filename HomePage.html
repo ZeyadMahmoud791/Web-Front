@@ -16,8 +16,8 @@
   <div class="menuDiv circle">
     <ul id="topMenu">
       <!-- <img src="cart.png" height="65"> -->
-      <li class="lt"><a>Home</a></li>
-      <li><a>Categories</a></li>
+      <li class="lt"><a href="HomePage.html">Home</a></li>
+      <li><a href="Categories.html">Categories</a></li>
       <li><a>Genres</a></li>
       <li><a>About us</a></li>
       <li class="rt"><a>Contact us</a></li>
@@ -27,49 +27,57 @@
   <div class="profile">
     <form>
       <input class="search" type="text" name="Search" id="" placeholder="Search">
-      <button type="submit"><img src="/css/Assets/HP/search.png" alt=""></button>
+      <button class="simg" type="submit"><img src="/css/Assets/HP/search.png" alt=""></button>
     </form>
-    <a href="profile.html"><img class="prof_photo" src="/css/Assets/HP/profile.png" alt="profile"></a>
+    <div class="dropdown">
+      <a href="profile.html"><img class="prof_photo" src="/css/Assets/HP/profile.png" alt="profile"></a>
+      <div class="dropdown-content">
+        <a class="t" href="SignIn.html">Sign In</a>
+        <a class="b" href="SignUp.html">Sign Up</a>
+      </div>
+    </div>
   </div>
 
 </header>
 
 <main>
+
+  <h2 class="title">Top Sellers</h2>
   <div class="Grid">
     <div class="img-wrapper">
       <!--<a href="nothing.html"><div class="content fade">Horror</div></a>-->
       <img class="blur zoom" src="/css/Assets/HP/Horror.jpg">
-      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Horror</div>
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">IT</div>
 
     </div>
 
     <div class="img-wrapper">
-      <img class="blur zoom" src="/css/Assets/HP/Crime.jpg">
-      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Crime</div>
+      <img class="blur zoom" src="/css/Assets/HP/ATTWN.jpg">
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">And Then There <br> &nbsp;&nbsp;&nbsp; Were None</div>
     </div>
 
   </div>
   <div class="Grid">
     <div class="img-wrapper">
-      <img class="blur zoom" src="/css/Assets/HP/comics.jpg">
-      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Comics</div>
+      <img class="blur zoom" src="/css/Assets/HP/inj.jpg">
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Injustice: Gods Among <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Us Year One</div>
     </div>
 
     <div class="img-wrapper">
       <img class="blur zoom" src="/css/Assets/HP/Manga.png">
-      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Manga</div>
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Berserk</div>
     </div>
   </div>
 
   <div class="Grid">
     <div class="img-wrapper">
-      <img class="blur zoom" src="/css/Assets/HP/SCP.jpg">
-      <div class="content fade" onclick="window.location.href = 'HomePage.html';">SCP</div>
+      <img class="blur zoom" src="/css/Assets/HP/093.jpg">
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SCP-093: <br> Red Sea Object</div>
     </div>
 
     <div class="img-wrapper">
-      <img class="blur zoom" src="/css/Assets/HP/Sci%20Fi.jpg">
-      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Sci-Fi</div>
+      <img class="blur zoom" src="/css/Assets/HP/Dune.jpg">
+      <div class="content fade" onclick="window.location.href = 'HomePage.html';">Dune</div>
     </div>
   </div>
 </main>
@@ -87,8 +95,8 @@
   <div class="book">
     <h4>BOOK STORE</h4>
     <ul>
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="Products.html">Products</a></li>
+      <li><a href="HomePage.html">Home</a></li>
+      <li><a href="Categories.html">Categories</a></li>
       <li><a href="About us.html">About Us</a></li>
       <li><a href="Contact us.html">Contact Us</a></li>
     </ul>

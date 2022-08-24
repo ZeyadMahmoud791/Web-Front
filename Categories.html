@@ -9,67 +9,81 @@
 
 <body>
 
-    <header>
-        <div class="logot">
-            <img src="book.png">
-            <h2 class="brandn">Book Store</h2>
-        </div>
+<header>
+  <div class="logot">
+    <img src="/css/Assets/HP/book.png" onclick="window.location.href = 'HomePage.html';">
+    <h2 class="brandn">Book Store</h2>
+  </div>
 
-        <div class="menuDiv circle">
-            <ul id="topMenu">
-                <!-- <img src="cart.png" height="65"> -->
-                <li><a>Home</a></li>
-                <li><a>Categories</a></li>
-                <li><a>Genres</a></li>
-                <li><a>About us</a></li>
-                <li><a>Contact us</a></li>
-            </ul>
-        </div>
+  <div class="menuDiv circle">
+    <ul id="topMenu">
+      <!-- <img src="cart.png" height="65"> -->
+      <li class="lt"><a href="HomePage.html">Home</a></li>
+      <li><a>Categories</a></li>
+      <li><a>Genres</a></li>
+      <li><a>About us</a></li>
+      <li class="rt"><a>Contact us</a></li>
+    </ul>
+  </div>
 
-        <div class="profile">
-            <form>
-                <input class="search" type="text" name="Search" id="" placeholder="Search">
-                <button type="submit"><img src="search.png" alt=""></button>
-            </form>
-            <a href="profile.html"><img class="prof_photo" src="profile.png" alt="profile"></a>
-        </div>
+  <div class="profile">
+    <form>
+      <input class="search" type="text" name="Search" id="" placeholder="Search">
+      <button type="submit"><img src="/css/Assets/HP/search.png" alt=""></button>
+    </form>
+    <div class="dropdown">
+      <a href="profile.html"><img class="prof_photo" src="/css/Assets/HP/profile.png" alt="profile"></a>
+      <div class="dropdown-content">
+        <a class="t" href="SignIn.html">Sign In</a>
+        <a class="b" href="SignUp.html">Sign Up</a>
+      </div>
+    </div>
+  </div>
 
-    </header>
+</header>
 
     <main>
         <h2 class="title">All Categories</h2>
         <div class="categories">
             <div  class="cards">
-                <a href=""><img src="action.png" alt="">
+                <a href=""><img src="/css/Assets/HP/Action.jpeg" alt="">
                 <h4>Action and Adventure</h4></a>
             </div>
             <div class="cards">
-                <a href=""><img src="Sci Fi.jpg" alt="">
+                <a href=""><img src="/css/Assets/HP/Dune.jpg" alt="">
                 <h4>Science Fiction (Sci-Fi)</h4></a>
             </div>
             <div class="cards">
-                <a href=""><img src="Horror.jpg" alt="">
+                <a href=""><img src="/css/Assets/HP/Horror.jpg" alt="">
                 <h4>Horror</h4></a>
             </div>
             <div class="cards">
-                <a href=""><img src="fantasy.jpg" alt="">
+                <a href=""><img src="/css/Assets/HP/Fantasy.jpeg" alt="">
                 <h4>Fantasy</h4></a>
             </div>
             <div class="cards">
-                <a href=""><img src="detective.jpg" alt="">
-                <h4>Detective and Mystery</h4></a>
+                <a href=""><img src="/css/Assets/HP/Crime.jpg" alt="">
+                <h4>Crime</h4></a>
             </div>
             <div class="cards">
-                <a href=""><img src="comics.jpg" alt="">
+                <a href=""><img src="/css/Assets/HP/comics.jpg" alt="">
                 <h4>Comics</h4></a>
             </div>
-            <div class="cards">
-                <a href=""><img src="romance.jpg" alt="">
-                <h4>Romance</h4></a>
+          <div class="cards">
+            <a href=""><img src="/css/Assets/HP/SCP.jpg" alt="">
+              <h4>SCP</h4></a>
+          </div>
+          <div class="cards">
+            <a href=""><img src="/css/Assets/HP/Manga.png" alt="">
+              <h4>Manga</h4></a>
+          </div>
+          <div class="cards">
+              <a href=""><img src="/css/Assets/HP/Romance.jpeg" alt="">
+                  <h4>Romance</h4></a>
             </div>
-            <div class="cards">
-                <a href=""><img src="self help.jpg" alt="">
-                <h4>Self-Help</h4></a>
+          <div class="cards">
+              <a href=""><img src="/css/Assets/HP/SH.jpeg" alt="">
+                  <h4>Self-Help</h4></a>
             </div>
         </div>
 
@@ -90,10 +104,10 @@
         <div class="book">
             <h4>BOOK STORE</h4>
             <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Products.html">Products</a></li>
-                <li><a href="About us.html">About Us</a></li>
-                <li><a href="Contact us.html">Contact Us</a></li>
+              <li><a href="HomePage.html">Home</a></li>
+              <li><a href="Categories.html">Categories</a></li>
+              <li><a href="About us.html">About Us</a></li>
+              <li><a href="Contact us.html">Contact Us</a></li>
             </ul>
         </div>
         <div class="help">
@@ -106,7 +120,7 @@
             </ul>
         </div>
     </footer>
-    
+
     </body>
-    
+
     </html>
