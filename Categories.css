@@ -8,7 +8,7 @@
 }
 
 body{
-  background-image: url("/css/Assets/HP/background.jpg");
+  background-image: url("/HP/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -19,6 +19,7 @@ header{
   justify-content: space-between;
   /* margin: 1px; */
   padding: 2px;
+  height: 77px;
   background-color: #CD853F;
   align-items: center;
   opacity: 99%;
@@ -27,19 +28,18 @@ header{
 .logot{
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .logot img{
   width: 70px;
   padding-left: 10px;
-  cursor: pointer;
 }
 
 .logot h2{
   padding-left: 10px;
   padding-right: 30px;
   font-size: 25px;
-  cursor: default;
 }
 
 .menuDiv {
@@ -73,6 +73,7 @@ header{
   color: #fff;
   font-size: 20px;
   background: #2e70a9;
+  cursor: pointer;
 }
 #topMenu .lt :hover {
   color: #fff;
@@ -81,6 +82,7 @@ header{
   border-bottom-left-radius: 7px;
   border-top-left-radius: 7px;
 }
+
 #topMenu .rt :hover {
   color: #fff;
   font-size: 20px;
@@ -145,9 +147,6 @@ input::-webkit-input-placeholder {
   display: flex;
   justify-content: center;
 }
-.simg{
-
-}
 
 .profile form {
   display: flex;
@@ -167,7 +166,7 @@ input::-webkit-input-placeholder {
 .categories{
     display: flex;
     flex-wrap: wrap;
-    /* background-color: blueviolet; */
+    justify-content: space-evenly;
 }
 
 .cards{
@@ -207,10 +206,7 @@ input::-webkit-input-placeholder {
     color: #00838d
 }
 
-
-
-
-
+/* Footer CSS */
 footer {
     display: flex;
     /* margin: 2px; */
