@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: smaller;
+}
+
+body{
+  background-image: url("/HP/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 1px; */
+  padding: 2px;
+  height: 77px;
+  background-color: #CD853F;
+  align-items: center;
+  opacity: 99%;
+}
+
+.logot{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logot img{
+  width: 70px;
+  padding-left: 10px;
+}
+
+.logot h2{
+  padding-left: 10px;
+  padding-right: 30px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.menuDiv {
+  background-color: #F4A460;
+  color: #2e70a9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.menuDiv ul {
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+.menuDiv ul li {
+  list-style: none;
+}
+
+.menuDiv ul li a {
+  color: black ;
+  text-decoration: none;
+  padding: 25px 25px;
+  display:  flex;
+  align-content: center;
+  font-size: large;
+  transition: ease-in-out all .3s;
+}
+
+.menuDiv ul li a:hover {
+  color: #fff;
+  font-size: 20px;
+  background: #2e70a9;
+  cursor: pointer;
+}
+#topMenu .lt :hover {
+  color: #fff;
+  font-size: 20px;
+  background: #2e70a9;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+#topMenu .rt :hover {
+  color: #fff;
+  font-size: 20px;
+  background: #2e70a9;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.menuDiv ul img:hover {
+  color: #fff;
+  font-size: large;
+  background: #2e70a9;
+  transition: ease-in-out all .3s;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.profile img {
+  width: 52px;
+  padding-left: 35px;
+  padding-right: 10px;
+}
+
+.profile form input {
+  align-self: center;
+  width: 200px;
+  height: 25px;
+  border: 3px solid black;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 3;
+}
+
+.profile form button {
+  width: 21%;
+  background: #DC143C;
+  color: white;
+  font-size: 13px;
+  border: 3px solid black;
+  border-left: none;
+  cursor: pointer;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.profile form button img{
+  width: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile form {
+  display: flex;
+}
+
+
+/* Main CSS */
+.title{
+    background-color: #B22222;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards{
+    transition: 300ms ease-in-out;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(219, 165, 107);
+    border-radius: 4%;
+
+}
+
+.cards img{
+    width: 290px;
+    height: 400px;
+    border-radius: 4% 4% 0 0 ;
+}
+
+.cards a{
+    text-decoration: none;
+    color: black;
+}
+
+.cards h4{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.cards:hover{
+    transition: 300ms ease-in-out;
+    transform: scale(1.1);
+    z-index: 2;
+    color: #00838d
+
+}
+
+/* Footer CSS */
+footer {
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+    background-color: #B22222;
+    opacity: 99%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.about {
+    margin: 1px;
+    width: 300px;
+}
+
+.about h4 {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF0F5;
+}
+
+.about p {
+  padding-left: 25px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: justify;
+  color: #FFF0F5;
+  font-size: 13px;
+}
+
+.cont {
+  padding-left: 25px;
+  padding-right: 10px;
+  color: #FFF0F5;
+  font-size: 14px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+}
+
+.book h4 {
+    color: #FFF0F5;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.book ul {
+    padding: 2px;
+    width: 200.5px;
+}
+
+.book ul li {
+    display: flex;
+    list-style: none;
+    margin: 5px 50px 5px 50px;
+    align-items: flex-start;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.book ul li a {
+    text-decoration: none;
+    color: #FFF0F5;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+
+.help h4 {
+    color: #FFF0F5;
+    padding: 10px;
+    font-size: 20px;
+    /* height: 50px; */
+    text-align: center;
+}
+
+.help ul {
+    padding: 2px;
+    width: 100%;
+}
+
+.help ul li {
+    display: flex;
+    list-style: none;
+    margin: 5px 50px 5px 50px;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.help ul li a {
+    color: #FFF0F5;
+    text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cd753f;
+  min-width: 109px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+}
+
+.dropdown-content .t:hover{
+  background-color: #CD853F;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.dropdown-content .b:hover{
+  background-color: #CD853F;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
