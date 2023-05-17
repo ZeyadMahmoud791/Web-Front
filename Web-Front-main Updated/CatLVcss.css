@@ -5,9 +5,7 @@
   padding: 0;
   margin: 0;
 }
-body{
-  background: url("/css/Assets/HP/background.jpg");
-}
+
 
 /* ! HEADER CSS */
 
@@ -25,7 +23,7 @@ header{
 }
 
 .logot img{
-  width: calc(8px + 4vw);
+  width: calc(7px + 4vw);
   padding-left: calc(1px + 0.6vw);
 }
 
@@ -64,7 +62,6 @@ header{
 
 .menuDiv ul li a:hover {
   color: #fff;
-  font-size: calc(5px + 1vw);
   background: #2e70a9;
 }
 

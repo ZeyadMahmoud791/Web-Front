@@ -4,10 +4,9 @@
   font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
-  /* font-size: large; */
 }
 
-body {
+body{
   background-image: url("/HP/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -167,35 +166,33 @@ input::-webkit-input-placeholder {
 }
 /* *END PROFILE MENU */
 
-.AboutTeamHead,
-.AboutUsHead {
+.ContactUsHead{
   display: flex;
   justify-content: center;
   border: 3px solid;
   color: brown;
   background-color: #CD853F;
   margin-top: 1.5%;
-  font-weight: bold;
+  font-weight: bolder;
   box-sizing: border-box;
-  width: calc(8px + 53vw);
+  width: calc(8px + 46vw);
   margin-left: auto;
   margin-right: auto;
   font-size: calc(7px + 0.4vw);
-
+  margin-top: 7%;
 }
 
-.AboutUs,
-.AboutTeam {
-  display: flex;
-  font-size: calc(6px + 0.4vw);
+.ContactUs{
+  font-size: calc(6px + 0.7vw);
   background-color: #F4A460;
   color: black;
   box-sizing: border-box;
-  width: calc(8px + 53vw);
+  width: calc(8px + 46vw);
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   border: 3px solid;
+  font-weight: bold;
 }
 
 /* ! FOOTER CSS */
@@ -206,7 +203,7 @@ footer {
   justify-content: space-evenly;
   background-color: #B22222;
   position: relative;
-  margin-top: calc(1px + 6.2vw);
+  margin-top: calc(0.1px + 11.5vw);
 }
 
 .about {
@@ -265,3 +262,5 @@ footer {
   text-decoration: none;
   color: #FFF0F5;
 }
+
+  

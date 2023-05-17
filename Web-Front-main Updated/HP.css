@@ -69,7 +69,6 @@ header{
 
 .menuDiv ul li a:hover {
   color: #fff;
-  font-size: calc(5px + 1vw);
   background: #2e70a9;
 }
 
